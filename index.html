@@ -8,12 +8,17 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
+  <article id="bg">
     <header>
     <a class="mainsite" href="/" aria-current="page">TechniCamp</a>
     <nav>
-      <a class="odnosnik1" href="./FAQ.html">FAQ</a>
+      <a class="odnosnik1" href="./Kursy.html">Kursy</a>
+      <a class="odnosnik" href="./FAQ.html">FAQ</a>
       <a class="odnosnik"href="./kontakt.html">Kontakt</a>
-      <a class="odnosnik" href="./Kursy.html">Kursy</a>
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+      </label>
     </nav>
     </header>
     <article id="O_nas">
@@ -23,8 +28,8 @@
       <p class="description">
         Jesteśmy niezależną grupą zrzeszającą pasjonatów programowania, od 45 lat prowadzimy bezpłatne zajęcia w szkołach podstawowych
         edukując uczniów w zakresie programowania. Jeśli chcesz, abyśmy przeprowadzili takie warsztaty w twojej szkole, wypełnij
-        formularz zgłoszeniowy poniżej! Jeśli chcesz dowiedzieć się z jakich języków programowania (i nie tylko) oferujemy zajęcia,
-        zajrzyj na stronę <a class="odnosnik2"href="/Kusry.html">Kursy</a>!
+        <b><span id='scrollTrigger'>formularz</span></b> zgłoszeniowy poniżej! Jeśli chcesz dowiedzieć się z jakich języków programowania (i nie tylko) oferujemy zajęcia,
+        zajrzyj na stronę <a class="odnosnik2"href="./Kursy.html">Kursy</a>!
       </p>
     </article>
     <form id="formularz">
@@ -55,8 +60,27 @@
       <input type="radio" id="php" name="language" value="PHP">
       <label for="php">PHP</label><br>
       <input type="radio" id="bootstrap" name="language" value="Bootstrap">
-      <label for="bootstrap">Bootstrap</label>
-      </p>
+      <label for="bootstrap">Bootstrap</label><br>
+      <button class="wyslij" type="submit">Wyślij</button>
     </form>
+  </article>
+  <article id="stuff">
+    <article id="gear">
+      <img class='gearimg' src="./Zebatka.webp" width="300px" height="225px">
+      <img class="bricks" src="./Klocki.jpg" width="150px" height="225px">
+      <img class="laptop" src="./Laptop.png" width="300px" height="225px">
+    </article>
+    <p id="sth">
+      <span class="sth1">Nauka</span>
+      <span class="sth2">Zabawa</span>
+      <span class="sth3">Programowanie</span>
+    </p>
+  </article>
+  <footer>
+    <p>©All rights reserved</p>
+    <a class="odnosnik3" href="./FAQ.html">FAQ</a>
+    <a class="odnosnik3" href="./kontakt.html">Kontakt</a>
+    <a class="odnosnik3" href="./Kursy.html">Kursy</a>
+  </footer>
   </body>
 </html>
