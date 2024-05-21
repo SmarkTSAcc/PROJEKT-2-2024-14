@@ -1,3 +1,26 @@
+@media screen and (max-width: 768px) {
+  .faq-container {
+      max-width: 90%;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .odnosnik {
+    margin-right: 10px;
+  }
+
+  .odnosnik1, .odnosnik2, .odnosnik3 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .gear img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 body {
   margin: 0;
   font-family:Arial, Helvetica, sans-serif;
@@ -359,15 +382,25 @@ footer {
 .EmptySpace {
   height:500px;
 }
+.faq-container{
+  padding-left:300px;
+}
 .faq-list {
   list-style: none;
 }
-
+.faq-title {
+  font-size: 50px;
+  margin-left: 100px;
+}
 .question {
-  font-size:25px;
+  font-size:40px;
+  margin-top:40px;
 }
 
 .answer {
-  font-size:20px;
+  font-size:25px;
   display:none;
+}
+.EmptySpace2 {
+  height:300px;
 }
