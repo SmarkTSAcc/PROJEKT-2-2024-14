@@ -267,6 +267,9 @@ input:checked + .slider:before {
 footer {
   background-image: linear-gradient(to right, black, rgb(0, 0, 137));
 }
+.f1 {
+  color:white;
+}
 #desc {
   font-size:30px;
 }
@@ -297,4 +300,74 @@ footer {
 .Jsimg:hover {
   transform:scale(110%);
   transition:2s;
+}
+.Pyimg {
+  margin-left:500px;
+  margin-top:100px;
+}
+.Pyimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+.Cimg {
+  margin-left:430px;
+  margin-top:100px;
+}
+.Cimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+.CCimg {
+  margin-left:410px;
+  margin-top:100px;
+}
+.CCimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+.Javaimg {
+  margin-left:410px;
+  margin-top:100px;
+}
+.Javaimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+.phpimg {
+  margin-left:410px;
+  margin-top:100px;
+}
+.phpimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+.Btimg {
+  margin-left:410px;
+  margin-top:100px;
+}
+.Btimg:hover {
+  transform:scale(110%);
+  transition:2s;
+}
+#DaneKontaktowe {
+  font-size:30px;
+  padding-left:100px;
+  background-color: white;
+  color:black;
+  border-radius: 30px;
+}
+.EmptySpace {
+  height:500px;
+}
+.faq-list {
+  list-style: none;
+}
+
+.question {
+  font-size:25px;
+}
+
+.answer {
+  font-size:20px;
+  display:none;
 }
