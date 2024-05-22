@@ -53,3 +53,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+const canvas = document.getElementById('techniCampCanvas');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = 'rgb(0, 0, 137)';
+ctx.font = 'bold 48px Arial';
+ctx.textAlign = 'center';
+ctx.textBaseline = 'middle';
+
+const text = 'TechniCamp';
+ctx.fillText(text, canvas.width / 2, canvas.height / 2);
